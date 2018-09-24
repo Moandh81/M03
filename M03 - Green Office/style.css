@@ -43,6 +43,11 @@ background-color: white;
 
 section {
 	padding-top: 1px;
+	background-color: grey;
+	padding-left: 24px;
+	padding-bottom: 27px;
+
+
 }
 h1 {
 	text-transform: uppercase;
@@ -51,7 +56,30 @@ h1 {
 
 }
 
-img {
+section p {
+	float:right;
+	margin-right: 10px;
+
+}
+
+section p>img  {
+	float:left;
 	width: 250px;
 	height: 111px;
+	margin-right: 10px;
+
+}
+
+section  a {
+	text-decoration: none;
+	font-family: oswald, sans-serif;
+	padding:10px 20px;
+	background-color:#B8CB21;
+	display:inline-block;
+	float:right;
+	margin-right: 20px;   
+}
+
+section div {
+	clear:both;
 }
